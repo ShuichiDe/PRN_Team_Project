@@ -46,11 +46,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 50F);
-            this.label2.Location = new System.Drawing.Point(428, 157);
+            this.label2.Location = new System.Drawing.Point(394, 157);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(240, 76);
+            this.label2.Size = new System.Drawing.Size(232, 76);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Project";
+            this.label2.Text = "project";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Main
             // 
